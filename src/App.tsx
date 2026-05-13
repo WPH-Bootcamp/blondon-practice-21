@@ -10,13 +10,13 @@ const App = () => {
     <div>
       <h1>Get ready with me</h1>
 
-      {/* <h2>{count}</h2> */}
+      <h2>{count}</h2>
       <h2>{theme}</h2>
 
       <button onClick={toggleTheme}>Toggle Theme</button>
-      {/* <button onClick={increment}>+</button>
+      <button onClick={increment}>+</button>
       <button onClick={decrement}>-</button>
-      <button onClick={reset}>Reset</button> */}
+      <button onClick={reset}>Reset</button>
 
       {user ? (
         <>
